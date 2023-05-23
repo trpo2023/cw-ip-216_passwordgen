@@ -1,4 +1,4 @@
-#include <../src/pwgen_lib/newpassword.h>
+#include <pwgen_lib/newpassword.h>
 #include <cstdlib>
 #include <fstream>
 #include <iostream>
@@ -10,13 +10,13 @@ using namespace std;
 void addUsedPassword(string username, string password, string file_name)
 {
     ofstream file(file_name, ios::app);
-    file << "LOGIN : " << username << " "
-         << "PASSWORD : " << password << endl;
+    file << "Логин: " << username << " "
+         << "Пароль: " << password << endl;
 }
 
 void NewUsedPassword(string str, string password, string file_name)
 {
     ofstream file(file_name, ios::app);
-    file << "LOGIN : " << str << " "
-         << "NEWPASSWORD : " << password << endl;
+    file << "Логин: " << str << " "
+         << "Новый пароль: " << password << endl;
 }

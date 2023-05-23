@@ -1,4 +1,4 @@
-#include <../src/pwgen_lib/generatepassword.h>
+#include <pwgen_lib/generatepassword.h>
 #include <iostream>
 #include <string>
 using namespace std;

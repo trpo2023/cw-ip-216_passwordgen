@@ -1,4 +1,4 @@
-#include <../src/pwgen_lib/deletepasswords.h>
+#include <pwgen_lib/deletepasswords.h>
 #include <fstream>
 #include <iostream>
 using namespace std;
@@ -11,7 +11,7 @@ int deletepasswords()
     char buff[256];
     int num, i;
 
-    cout << "Nomer stroki: " << endl;
+    cout << "Номер строки для удаления: " << endl;
     cin >> num;
     i = 0;
     while (!in.eof()) {
@@ -27,7 +27,7 @@ int deletepasswords()
     }
     out.close();
     in.close();
-    cout << "\nDELETED!\n ";
+    cout << "\nУспешно!\n ";
     remove("used_passwords.txt");
     rename("passnews.txt", "used_passwords.txt");
     return 0;

@@ -1,4 +1,4 @@
-#include <../src/pwgen_lib/passwordused.h>
+#include <pwgen_lib/passwordused.h>
 #include <algorithm>
 #include <cstdlib>
 #include <ctime>

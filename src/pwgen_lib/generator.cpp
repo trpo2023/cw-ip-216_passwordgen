@@ -1,4 +1,4 @@
-#include <../src/pwgen_lib/generatepassword.h>
+#include <pwgen_lib/generatepassword.h>
 #include <../src/pwgen_lib/generator.h>
 #include <../src/pwgen_lib/newpassword.h>
 #include <../src/pwgen_lib/passwordused.h>
@@ -9,10 +9,10 @@ using namespace std;
 int generator()
 {
     string username; // Название логина
-    cout << "Vvedite USERNAME: ";
+    cout << "Введите логин: ";
     cin >> username;
     int length; // Длина пароля
-    cout << "Vvedite dliny parolya: ";
+    cout << "Введите длину пароля: ";
     cin >> length;
 
     string password; // Генерирует уникальный пароль

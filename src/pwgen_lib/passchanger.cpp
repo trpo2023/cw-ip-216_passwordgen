@@ -1,4 +1,4 @@
-#include <../src/pwgen_lib/passchanger.h>
+#include <pwgen_lib/passchanger.h>
 #include <../src/pwgen_lib/passwordused.h>
 #include <iostream>
 #include <string>
@@ -8,14 +8,14 @@ int passchanger()
 { //Функция смены пароля
     string username;
     std::ifstream ifs("used_passwords.txt");
-    cout << "Vvedite LOGIN: ";
+    cout << "Введите логин: ";
     std::string str;
     std::cin >> str;
     using input_it = std::istream_iterator<std::string>;
     std::cout << std::boolalpha
               << (std::find(input_it(ifs), input_it(), str) != input_it());
     int length; // Длина пароля
-    cout << "Vvedite dliny parolya: ";
+    cout << "Введите длину пароля: ";
     cin >> length;
 
     string password; // Генерирует уникальный пароль

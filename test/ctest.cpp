@@ -1,10 +1,10 @@
 #include "../thirdparty/ctest.h"
-#include <../src/pwgen_lib/deletepasswords.h>
+#include <pwgen_lib/deletepasswords.h>
 #include <../src/pwgen_lib/generatepassword.h>
 #include <../src/pwgen_lib/generator.h>
 #include <../src/pwgen_lib/newpassword.h>
 #include <../src/pwgen_lib/passchanger.h>
-#include <../src/pwgen_lib/passwordused.h>
+#include <../src/pwgen_lib/passwordused.h> 
 #include <../src/pwgen_lib/viewcontent.h>
 
 using namespace std;
@@ -88,7 +88,7 @@ CTEST(check_add_used_password, test1)
     ifstream in_file(file_name);
     string line;
     getline(in_file, line);
-    if (line == "LOGIN : test_user PASSWORD : test_password")
+    if (line == "Логин: test_user Пароль: test_password")
         expected = true;
 
     ASSERT_TRUE(expected);
@@ -110,7 +110,7 @@ CTEST(check_add_new_password, test1)
     ifstream in_file(file_name);
     string line;
     getline(in_file, line);
-    if (line == "LOGIN : test_user PASSWORD : test_password")
+    if (line == "Логин: test_user Пароль: test_password")
         expected = true;
 
     ASSERT_TRUE(expected);

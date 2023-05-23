@@ -1,4 +1,4 @@
-#include <../src/pwgen_lib/viewcontent.h>
+#include <pwgen_lib/viewcontent.h>
 #include <fstream>
 #include <iostream>
 #include <string>
@@ -11,13 +11,13 @@ void viewcontent() // Функция для просмотра файла
     ifstream fin;
     fin.open(path);
     if (fin.is_open()) {
-        cout << "\nUSED PASSWORDS : \n" << endl;
+        cout << "\nИспользуемые пароли: \n" << endl;
         char ch;
         while (fin.get(ch)) {
             cout << ch;
         }
     } else {
-        cout << "!!!Error!!!  File not open!" << endl;
+        cout << "!!!ОШИБКА!!!  Файл не открывается!" << endl;
     }
     fin.close();
 }
