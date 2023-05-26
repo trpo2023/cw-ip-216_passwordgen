@@ -9,7 +9,7 @@
 
 using namespace std;
 // проверка длины пароля
-CTEST(check_password_generate, test1)
+    CTEST(check_password_generate, test1)
 {
     int length = 10;
     string password = generatePassword(length);
