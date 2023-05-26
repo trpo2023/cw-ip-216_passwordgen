@@ -8,13 +8,13 @@
 #include <string>
 #include <vector>
 
-#include <pwgen_lib/deletepasswords.h>
 #include <../src/pwgen_lib/generatepassword.h>
 #include <../src/pwgen_lib/generator.h>
 #include <../src/pwgen_lib/newpassword.h>
 #include <../src/pwgen_lib/passchanger.h>
 #include <../src/pwgen_lib/passwordused.h>
 #include <../src/pwgen_lib/viewcontent.h>
+#include <pwgen_lib/deletepasswords.h>
 
 using namespace std;
 

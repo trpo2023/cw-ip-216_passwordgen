@@ -1,5 +1,5 @@
-#include <pwgen_lib/generatepassword.h>
 #include <iostream>
+#include <pwgen_lib/generatepassword.h>
 #include <string>
 using namespace std;
 

@@ -1,6 +1,6 @@
-#include <pwgen_lib/deletepasswords.h>
 #include <fstream>
 #include <iostream>
+#include <pwgen_lib/deletepasswords.h>
 using namespace std;
 
 int deletepasswords()

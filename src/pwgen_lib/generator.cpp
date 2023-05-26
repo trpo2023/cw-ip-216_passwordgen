@@ -1,8 +1,8 @@
-#include <pwgen_lib/generatepassword.h>
 #include <../src/pwgen_lib/generator.h>
 #include <../src/pwgen_lib/newpassword.h>
 #include <../src/pwgen_lib/passwordused.h>
 #include <iostream>
+#include <pwgen_lib/generatepassword.h>
 #include <string>
 using namespace std;
 

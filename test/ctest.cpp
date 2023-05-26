@@ -1,15 +1,15 @@
 #include "../thirdparty/ctest.h"
-#include <pwgen_lib/deletepasswords.h>
 #include <../src/pwgen_lib/generatepassword.h>
 #include <../src/pwgen_lib/generator.h>
 #include <../src/pwgen_lib/newpassword.h>
 #include <../src/pwgen_lib/passchanger.h>
-#include <../src/pwgen_lib/passwordused.h> 
+#include <../src/pwgen_lib/passwordused.h>
 #include <../src/pwgen_lib/viewcontent.h>
+#include <pwgen_lib/deletepasswords.h>
 
 using namespace std;
 // проверка длины пароля
-    CTEST(check_password_generate, test1)
+CTEST(check_password_generate, test1)
 {
     int length = 10;
     string password = generatePassword(length);

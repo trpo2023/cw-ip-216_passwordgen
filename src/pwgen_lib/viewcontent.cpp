@@ -1,6 +1,6 @@
-#include <pwgen_lib/viewcontent.h>
 #include <fstream>
 #include <iostream>
+#include <pwgen_lib/viewcontent.h>
 #include <string>
 using namespace std;
 

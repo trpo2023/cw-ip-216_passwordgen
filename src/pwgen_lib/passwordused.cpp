@@ -1,4 +1,3 @@
-#include <pwgen_lib/passwordused.h>
 #include <algorithm>
 #include <cstdlib>
 #include <ctime>
@@ -6,6 +5,7 @@
 #include <iostream>
 #include <iterator>
 #include <locale.h>
+#include <pwgen_lib/passwordused.h>
 #include <string>
 #include <vector>
 using namespace std;

@@ -1,8 +1,8 @@
-#include <pwgen_lib/newpassword.h>
 #include <cstdlib>
 #include <fstream>
 #include <iostream>
 #include <locale.h>
+#include <pwgen_lib/newpassword.h>
 #include <string>
 using namespace std;
 

@@ -1,6 +1,6 @@
-#include <pwgen_lib/passchanger.h>
 #include <../src/pwgen_lib/passwordused.h>
 #include <iostream>
+#include <pwgen_lib/passchanger.h>
 #include <string>
 using namespace std;
 
